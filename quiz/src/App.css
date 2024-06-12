@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+*{
+  font-family: "Platypi", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+}
+
+.quiz{
+  width: 600px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, o.1);
+  border-radius: 4px;
+}
+
+.question-section{
+  text-align: center;
+}
+.question-section h2{
+  margin: 10px 0px;
+  font-weight: 600;
+  color:cornflowerblue
+}
+.question-section p{
+  font-weight: 500;
+}
+
+.ptions{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+button{
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 25px;
+  border: none;
+  background-color: cadetblue;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover{
+  filter:brightness(1.2)
+}
+
+.timer{
+  margin-top: 20px;
+  font-size: 18px;
+  color:#555
+}
+
+.timer span{
+  font-weight: 800;
+}
+.score-section{
+  text-align: center;
+}
+.score-section h2{
+  font-weight: 500px;
+  margin-bottom: 15px;
+}
+.score-section button{
+  background-color:lightsalmon;
+}

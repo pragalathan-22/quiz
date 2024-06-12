@@ -1,0 +1,20 @@
+[
+    {
+        "id":1,
+        "question":"Who is the current captain of the CSK ? ",
+        "options":["MS Dhoni","Jedeja","Gaikwad","Dube"],
+        "correctOption":"Gaikwad"
+    },
+    {
+        "id":2,
+        "question":"Which team having most fan base ",
+        "options":["chennai","Mumbai","Rcb","Titans"],
+        "correctOption":"Rcb"
+    },
+    {
+        "id":3,
+        "question":"who is holding orange cap ",
+        "options":["King Koli","Gill","Gaikwad","Rohith"],
+        "correctOption":"King Koli"
+    }
+]
